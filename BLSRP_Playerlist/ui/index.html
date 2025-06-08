@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Player List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="playerList">
+    <h1 id="listTitle" style="color: #e0e0e0;"></h1>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 40%;">NAME</th>
+          <th style="width: 20%;">ID</th>
+          <th style="width: 40%;">DISCORD ID</th>
+        </tr>
+      </thead>
+      <tbody id="playerListBody"></tbody>
+    </table>
+    <p id="playerCount">Players: 0 / 64</p>
+    <p id="toggleInstruction" style="font-size: 16px; color: #fff; margin: 8px 0 0 0;">Press F10 to open/close</p>
+  </div>
+  <script src="script.js"></script>
+  <script src="config.js"></script>
+</body>
+</html>
